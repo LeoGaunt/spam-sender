@@ -3,7 +3,7 @@ import pyautogui
 import time
 
 Time = int(input("How long do you need to reach your appllication where you want the messages? (In seconds): "))
-wait = int(input("How long would you like between each message? (In seconds): "))
+wait = float(input("How long would you like between each message? (In seconds): "))
 
 #Gives time to get to application
 time.sleep(Time)
