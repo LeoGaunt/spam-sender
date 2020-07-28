@@ -2,8 +2,11 @@ import pyperclip
 import pyautogui
 import time
 
+Time = int(input("How long do you need to reach your appllication where you want the messages? (In seconds): "))
+wait = int(input("How long would you like between each message? (In seconds): "))
+
 #Gives time to get to application
-time.sleep(5)
+time.sleep(Time)
 
 #Words to be copied
 lyrics = "Insert Lyrics/Script here"
@@ -20,4 +23,4 @@ for x in range(0,len(split)):
     pyautogui.keyUp('v')
     pyautogui.keyDown('enter')
     pyautogui.keyUp('enter')
-    time.sleep(0.1)
+    time.sleep(wait)
