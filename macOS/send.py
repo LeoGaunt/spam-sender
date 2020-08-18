@@ -9,7 +9,7 @@ wait = float(input("How long would you like between each message? (In seconds): 
 time.sleep(Time)
 
 #Words to be copied
-lyrics = "Insert Lyrics/Script here"
+lyrics = "enter text here"
 
 #Splits long text into words
 split = lyrics.split()
