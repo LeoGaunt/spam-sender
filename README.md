@@ -6,11 +6,11 @@ You will need to install pyperclip and pyautogui
 
 You can do this by using
 
-
+```
 pip install pyperclip
 
 pip install pyautogui
-
+```
 Explain:
 
 You have 5 seconds to go onto the app you want to use -Works best on messages(mac) and whatsapp(mac/windows/linux)- this can be customised.
